@@ -1,0 +1,12 @@
+babel :- we are using babel to convert the es6 latest version of js into the old version
+         so that it will work for express and nodejs also . because node and express do not support
+         ES6 version of js . So babel is working as a middle man.
+
+cors  :- we use cors because we want that our entire project or  database should also be able to receive data from other ports from other API. if we don't include cors , then  whenever 
+         we deploy our project it will block the imports from other API's from other ports.    
+
+helmet :- we use helmet, because it add some extra layers of security while dealing with authentication and authorization.     
+
+redux-thunk: redux does not support asynchronous task , so making it support asynchronous task we have to install the redux-thunk.
+
+redux-logger: to get the problems you are facing with .
